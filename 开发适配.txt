@@ -1,4 +1,4 @@
-iOS判断刘海屏幕机型（iPhone X ，XR，XS ，XS Max等）。
+（1）iOS判断刘海屏幕机型（iPhone X ，XR，XS ，XS Max等）
 
 通过 safeAreaInsets 属性（iOS11后，新增）做判断：
 
