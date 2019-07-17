@@ -1,0 +1,10 @@
+iOS判断刘海屏幕机型（iPhone X ，XR，XS ，XS Max等）。
+
+通过 safeAreaInsets 属性（iOS11后，新增）做判断：
+
+BOOL isPhoneX = NO;
+if (@available(iOS 11.0, *)) {
+    isPhoneX =  [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom;
+} else {
+    // earlier versions
+}
